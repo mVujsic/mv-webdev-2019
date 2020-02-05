@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fin Radio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img id='img1' src="./img/MediaCenter_Gray_Alt.png" onclick="change()" width='50' height="50" alt=""
+                    srcset=""><b> Радио ФИНК</b></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mr-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Почетна страна <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Уживо</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <div class="dropdown">
+                            <a class="nav-link" href="#">О нама</a>
+                            <div class="dropdown-content">
+                                <a href="#generals">Контакт</a>
+                                <a href="#generals">Историјат</a>
+                                <a href="#generals">Запослени</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./player/top40.html">Топ 40</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./login.php">Најслушаније песме</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md7 col-sm-12">
+                    <h1>Oнлајн радио ФИНК</h1>
+                    <h6>Аутор : Матеја Вујсић 617/2017</h6>
+                    <p>Ова страница настала је као део пројекта.
+                    </p>
+                    <button class="btn btn-light px-2 py-4" onclick="change()">
+                        <b><img src="./img/MediaCenter_Gray_Alt.png" id='img2' width='50' height="50" alt="" srcset="" onclick="change()"> Слушај
+                            уживо било где на свету.Тренутно на радију:<br> Eмисија: <span id="show"></span>  </b>
+                    </button>
+                </div>
+                <div class="col-md5 col-sm-12 h-25">
+                    <br><br>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section1">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col md-6">
+                        <div class="pray">
+                            <img src="./img/FINK-glavna-zgrada_medium.jpg" alt="" width="600" height="300">
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col md-6">
+                        <div class="panel text-left">
+                            <h1>О нама</h1>
+                            <p class="pt-4"> Радио Финк је бесплатан научни радио основан 2020. .Настао је као
+                                покушај унапређења високог школства и константног стручног усавшавања.
+                                Научни talk-show,podcast-и, емисије о научним достигнућима саставни су
+                                једног дана на ФИНК радију.
+                            </p>
+                            <p>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section2 container-fluid p-0">
+            <div class="cover">
+                <div class="content text-center">
+                    <h1 id="generals">Основне информације</h1>
+                </div>
+            </div>
+            <div class="container fluid text-center">
+                <div class="numbers d-flex flex-md flex-md-row flex-md-wrap justify-content-center">
+                    <div class="rect">
+                        <h4 class="pt-2">Контакт<br></h4>
+                        <p>Број телефона:034233-233</p>
+                        <p>Пишите: radiofink@finkg.rs</p>
+
+                    </div>
+                    <div class="rect">
+                        <h4 class="pt-2">
+                            Запослени <br>
+                        </h4>
+                        <p>
+                            М.Вујсић
+                        </p>
+                    </div>
+                    <div class="rect">
+                        <h4 class="pt-2">Историјат<br></h4>
+                        <p>Стартап покренут: 2020. јануар
+                        </p>
+                        <p>Loading...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="purchase text-center">
+                <h1>Донирајте уколико сте у могућности</h1>
+                <p>Сваки вид ваше подршке значи.</p>
+                <div class="cards">
+                    <div class="d-flex flex-row justify-content-center flex-wrap">
+                        <div class="card " style="width: 18rem;">
+                            <img src="./img/din.jpg" class="card-img-top" width="200" height="100" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title pt-2">Динарски</h5>
+                                <p class="card-text">Жиро рачун:234-3232-3233</p>
+                            </div>
+                        </div>
+                        <div class="card " style="width: 18rem;">
+                            <img src="./img/paypal.png" class="card-img-top" alt="..." width="200" height="100">
+                            <div class="card-body">
+                                <h5 class="card-title pt-2">Paypal:</h5>
+                                <p class="card-text">fink.kg@paypal</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row footer-top">
+                <div class="col-sm-4 text-center">
+                    <h4 class="ft-text-title">Радио ФИНК</h4>
+                    <h6 class="ft-desp">Факултет инжењерских наука
+                        <br>Крагујева,34000 Србија
+                    </h6>
+                    <h4 class="details">
+                        <a class="contact" href="">
+                            <i class="fa fa-phone" aria-hidden="true"></i>+381 034854958</a>
+                    </h4>
+                </div>
+                <div class="col-sm-4 text-center border-left">
+                    <h4 class="ft-text-title">Тим</h4>
+                    <div class="address-member">
+                        <p class="member">
+                            <b>Матеја Вујсић</b>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 text-center border-left">
+                    <h4 class="ft-text-title">Информације</h4>
+                    <div class="pspt-dtls">
+                        <a href="#" class="about">О нама</a>
+                        <a href="#" class="team">Запослени</a>
+                        <a href="#" class="advertise">Слушај Уживо</a>
+                        <br><br><br><br><br><br><br>
+                    </div>
+                </div>
+            </div>
+            <div class="row ft-copyright pt-2 pb-2" style="padding-left: 25px;">
+                <div class="col-sm-4 text-pp-crt">copyright 2020. All Rights Reserved</div>
+
+                <div class="col-sm-4 developer">
+                    <a href="mateja.vujsic@blabla.com" target="_blank" class="text-pp-crt">By :
+                        <b>M</b>ateja<b>V</b>ujsic</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+      
+      <script type="text/javascript">
+            
+            var emisije=["./show/goci.mp3","./show/seki.mp3"]
+            var showTitle=["ИНТЕРВЈУ Гоци бенд","Хашко прасе"]
+            var play=0;
+            var show = new Audio();
+            var currentShow = 0;
+           
+            function change(){
+                if(play==0) {
+                    $("#img1").attr("src","./img/MediaCenter_Green.png");
+                    $("#img2").attr("src","./img/MediaCenter_Green.png");
+                    play=1;
+                    playShow();
+                }else{
+                    $("#img1").attr("src","./img/MediaCenter_Gray_Alt.png");
+                    $("#img2").attr("src","./img/MediaCenter_Gray_Alt.png");
+                    play=0;
+                    playShow();
+                }
+                
+            }
+            function playShow(){
+                if(play==1){
+                    show.src = emisije[currentShow];  //postavlja nultu pesmu
+                    var title = showTitle[currentShow];
+                    show.play()
+                    $("#show").text(title);
+                }else{
+                    show.pause();
+                }
+            
+                 
+        }
+        show.addEventListener('timeupdate',function(){ 
+            
+            var position = show.duration-show.currentTime;
+            if(position==0){
+                currentShow++;
+                if(currentShow==2){
+                    currentShow=0;
+                }
+                playShow();
+            }
+        });
+            
+        
+        
+        </script>
+</body>
+
+
+</html>
