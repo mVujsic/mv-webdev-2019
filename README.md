@@ -1,3 +1,7 @@
-## Projektni zadataka programiranje veb aplikacija
+## **Радио станица**
 
-Domaci zadatak iz web programiranja,MV2020
+## Верзија 1.1
+
+#### Предмет: Програмирање интернет апликација,2020
+
+##### Аутор: Матеја Вујсић, факултет инжењерских наука универзитет у Крагујевцу
